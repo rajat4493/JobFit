@@ -1,3 +1,4 @@
+const API_ENDPOINT = "https://jobfit.rajat4493.workers.dev/";
 chrome.runtime.onInstalled.addListener(()=>console.log('CVSync draft installed'));
 chrome.runtime.onMessage.addListener((request, sender, sendResponse)=>{
   if(request.action === 'matchJob'){
