@@ -1,0 +1,16 @@
+#cvsync-overlay{
+  position: fixed; right: 16px; bottom: 16px; width: 320px; z-index: 2147483647;
+  background: rgba(9,14,25,.90); backdrop-filter: blur(8px);
+  border:1px solid #1f2a44; border-radius:16px; padding:14px; color:#e5e7eb;
+  box-shadow: 0 0 0 1px rgba(255,255,255,.03), 0 24px 40px rgba(0,0,0,.5);
+  font-family: Inter, system-ui, Segoe UI, Roboto, Arial, sans-serif;
+}
+.cv-header{display:flex; align-items:center; justify-content:space-between; margin-bottom:6px}
+.cv-title{font-weight:700; letter-spacing:.3px}
+.cv-close{background:transparent; border:none; color:#93c5fd; font-size:20px; cursor:pointer}
+.cv-score{display:flex; gap:10px; align-items:center; margin:8px 0 6px}
+.cv-score-val{font-size:28px; font-weight:800; background: linear-gradient(135deg,#6ee7b7,#22d3ee); -webkit-background-clip:text; background-clip:text; color:transparent}
+.cv-score-sub{font-size:12px; color:#a5b4fc}
+.cv-reasons{background:#0b0f19; border:1px solid #1f2a44; border-radius:12px; padding:10px; margin-top:8px}
+.cv-reasons ul{margin:0; padding-left:18px}
+.cv-reasons li{margin:6px 0}
